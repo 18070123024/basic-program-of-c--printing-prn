@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+int prn;
+printf("Enter the prn"); //entering the prn
+scanf("%d",&prn);
+printf("prn entered%d",prn); //displaying it
+return 0;
+}
