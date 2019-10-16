@@ -1,11 +1,19 @@
 #include<stdio.h>
 #include<conio.h>
 
+int disp();
 int main()
+{
+int prn;
+prn=disp();
+printf("prn entered%d",prn); //displaying it
+return 0;
+}
+
+int disp()
 {
 int prn;
 printf("Enter the prn"); //entering the prn
 scanf("%d",&prn);
-printf("prn entered%d",prn); //displaying it
-return 0;
+return p;
 }
